@@ -1,0 +1,12 @@
+select{
+    width:200px;
+    height: 30px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5% ;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    border: 3px solid rgb(165, 193, 197);
+    background-color: rgb(216, 214, 201);
+    
+    
+}

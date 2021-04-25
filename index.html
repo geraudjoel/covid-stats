@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Covid Stats</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css.css">
+
+    <script src="./index.js" defer></script>
+  </head>
+  <body class="bg-light">
+    <div class="container">
+      <h1 class="title">
+         Covid 19-Zahlen
+      </h1>
+      <h6 class="text-muted mb-4">
+        Aus API https://covid19.mathdro.id/api
+      </h6>
+      <div>
+        <div class="error"></div>
+        <div class="info"></div>
+        <div class="mb-4">
+          <select name="countries" id="countries">
+            <option value="all">world</option>
+          </select>
+        </div>
+        <div class="country-stats"></div>
+      </div>
+      <h6 class="text-muted mb-4"><a href="https://github.com/geraudjoel"> By Geraud Joel https://github.com/geraudjoel</a> </h6>
+    </div>
+   
+  </body>
+</html>
